@@ -3,7 +3,7 @@ import { Colors, moderateScale, scale, verticalScale } from '../../theme';
 
 export const styles = StyleSheet.create({
   imageBackground: {
-    flex: 0.7,
+    flex: 0.8,
     justifyContent: 'flex-end',
   },
   tryText: {
@@ -30,10 +30,10 @@ export const styles = StyleSheet.create({
     fontSize: moderateScale(16),
     fontWeight: '300',
     color: Colors.white,
-    marginBottom: verticalScale(5),
+    marginTop: verticalScale(8),
   },
   pointsContainer: {
-    flex: 0.4,
+    flex: 0.2,
     alignItems: 'center',
   },
   priceCardContainer: {

@@ -24,11 +24,11 @@ const Header = () => {
                 <Text style={styles.tryText}>{string.pro}</Text>
               </View>
             </View>
+            <Text style={styles.subTitle}>{string.accessUnlimited}</Text>
           </View>
         </LinearGradient>
       </ImageBackground>
       <View style={styles.pointsContainer}>
-        <Text style={styles.subTitle}>{string.accessUnlimited}</Text>
         <CheckWithTitle title={string.checkMarkOne} />
         <CheckWithTitle title={string.checkMarkTwo} />
         <CheckWithTitle title={string.checkMarkThree} />
